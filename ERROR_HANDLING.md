@@ -10,7 +10,7 @@ To handle authentication errors in Spotipy, you can catch the `SpotifyException`
 
 To catch and handle authentication errors in Spotipy, you can use the following code snippet:
 
-```
+```python
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.exceptions import SpotifyException
@@ -48,7 +48,7 @@ To handle rate limiting errors in Spotipy, you can catch the `SpotifyException` 
 
 To catch and handle rate-limiting errors in Spotipy, you can use the following code snippet:
 
-```
+```python
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.exceptions import SpotifyException
@@ -98,7 +98,7 @@ To handle client-side errors in Spotipy, you can catch the `SpotifyException` ex
 
 To catch and handle client-side errors in Spotipy, you can use the following code snippet:
 
-```
+```python
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.exceptions import SpotifyException
@@ -145,7 +145,7 @@ To handle server errors in Spotipy, you can catch the `SpotifyException` excepti
 
 To catch and handle server errors in Spotipy, you can use the following code snippet:
 
-```
+```python
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.exceptions import SpotifyException
